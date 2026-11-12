@@ -1,0 +1,11 @@
+# Ambiente
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Dados (baixados pelo próprio notebook) e saídas executadas
+data/
+outputs/
+
+# Configurações pessoais do Claude Code
+.claude/settings.local.json

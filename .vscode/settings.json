@@ -1,0 +1,12 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "jupyter.notebookFileRoot": "${workspaceFolder}",
+  "files.exclude": {
+    "data/EuroSAT_RGB": true
+  },
+  "search.exclude": {
+    "data/**": true,
+    "outputs/**": true,
+    ".venv/**": true
+  }
+}

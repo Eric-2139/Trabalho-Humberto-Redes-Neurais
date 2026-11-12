@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(uv run *)",
+      "Bash(SMOKE_TEST=1 uv run *)",
+      "Bash(uv sync *)",
+      "Bash(uv pip list *)",
+      "Edit(trabalho_eurosat.ipynb)",
+      "Edit(relatorio.ipynb)",
+      "Edit(PLAN.md)",
+      "Edit(outputs/**)"
+    ],
+    "deny": [
+      "Edit(data/**)",
+      "Edit(docs/enunciado.md)"
+    ]
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR/.venv/Scripts/python.exe\" \"$CLAUDE_PROJECT_DIR/.claude/hooks/validar_notebook.py\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}
