@@ -20,6 +20,7 @@ Os itens do "Entregável" do enunciado (descrição do dataset, decisões, métr
 ## Regras
 - Markdown para o texto; **células de código só para carregar e exibir** as tabelas (dos CSVs de `outputs/`) e as figuras (lidas do `trabalho_eurosat.ipynb` executado pela função `figura(id_da_célula)`). Nada de treino, de recálculo de métricas nem de gráfico redesenhado no relatório.
 - Cada figura tem uma legenda numerada ("Figura N") com a seção de origem e o que ela sustenta na tabela vizinha. Interpretações citam a figura quando dependem dela.
+- Logo abaixo de cada tabela e figura vai um bloco **"📖 Como ler"** (2–5 bullets): o que significa cada coluna ou eixo e os termos técnicos que aparecem ali (ex.: `Flatten()`, `Resizing(96, 96)`, recall, escala log). Em tabela markdown, o bloco fica na mesma célula; em saída de código, numa célula de markdown logo depois. Decidido pelos alunos em 2026-11-13.
 - Detalhado, mas organizado: seções com títulos claros, tabelas em vez de parágrafos sempre que possível.
 - Todo número vem dos CSVs exportados pelo notebook principal ou de uma saída citada dele. Tempos vêm da **execução completa local** (execução oficial).
 - Números citados no texto precisam bater com as tabelas carregadas.
