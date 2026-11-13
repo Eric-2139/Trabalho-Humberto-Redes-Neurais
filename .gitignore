@@ -3,9 +3,13 @@
 __pycache__/
 .ipynb_checkpoints/
 
-# Dados (baixados pelo próprio notebook) e saídas executadas
+# Dados (baixados pelo próprio notebook)
 data/
-outputs/
+
+# Saídas: os CSVs da execução oficial são versionados (o relatório lê deles).
+# Fora do git: smoke e a cópia do nbconvert (a versão executada vai para trabalho_eurosat.ipynb, na raiz).
+outputs/*_smoke*
+outputs/*.ipynb
 
 # Configurações pessoais do Claude Code
 .claude/settings.local.json

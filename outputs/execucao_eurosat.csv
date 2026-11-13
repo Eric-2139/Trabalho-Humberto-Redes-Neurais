@@ -1,0 +1,2 @@
+modo,data,n_treino,n_validacao,n_teste,assinatura_split,processador,tensorflow,keras,melhor_mlp,melhor_cnn,melhor_tl
+completo,2026-11-13 17:56,5000,1000,2000,25d314761ce3,Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz,2.21.0,3.15.1,MLP + ES + augmentation,CNN + ES + augmentation,TL-FE + ES

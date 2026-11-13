@@ -1,0 +1,221 @@
+modelo,abordagem,classe,conjunto,f1
+MLP baseline,MLP,AnnualCrop,val,0.56
+MLP baseline,MLP,Forest,val,0.6372549019607843
+MLP baseline,MLP,HerbaceousVegetation,val,0.37333333333333335
+MLP baseline,MLP,Highway,val,0.1878453038674033
+MLP baseline,MLP,Industrial,val,0.6918238993710691
+MLP baseline,MLP,Pasture,val,0.47904191616766467
+MLP baseline,MLP,PermanentCrop,val,0.3973509933774834
+MLP baseline,MLP,Residential,val,0.41346153846153844
+MLP baseline,MLP,River,val,0.4661016949152542
+MLP baseline,MLP,SeaLake,val,0.6118721461187214
+MLP baseline,MLP,AnnualCrop,test,0.50199203187251
+MLP baseline,MLP,Forest,test,0.6502732240437158
+MLP baseline,MLP,HerbaceousVegetation,test,0.35436893203883496
+MLP baseline,MLP,Highway,test,0.22933333333333333
+MLP baseline,MLP,Industrial,test,0.6909090909090909
+MLP baseline,MLP,Pasture,test,0.5438066465256798
+MLP baseline,MLP,PermanentCrop,test,0.3202614379084967
+MLP baseline,MLP,Residential,test,0.42105263157894735
+MLP baseline,MLP,River,test,0.4968684759916493
+MLP baseline,MLP,SeaLake,test,0.5584415584415584
+MLP + ES,MLP,AnnualCrop,val,0.4980237154150198
+MLP + ES,MLP,Forest,val,0.6869565217391305
+MLP + ES,MLP,HerbaceousVegetation,val,0.2905027932960894
+MLP + ES,MLP,Highway,val,0.21224489795918366
+MLP + ES,MLP,Industrial,val,0.6731707317073171
+MLP + ES,MLP,Pasture,val,0.4580152671755725
+MLP + ES,MLP,PermanentCrop,val,0.3333333333333333
+MLP + ES,MLP,Residential,val,0.4265402843601896
+MLP + ES,MLP,River,val,0.4392523364485981
+MLP + ES,MLP,SeaLake,val,0.67
+MLP + ES,MLP,AnnualCrop,test,0.49101796407185627
+MLP + ES,MLP,Forest,test,0.7703016241299304
+MLP + ES,MLP,HerbaceousVegetation,test,0.32345013477088946
+MLP + ES,MLP,Highway,test,0.25203252032520324
+MLP + ES,MLP,Industrial,test,0.6590389016018307
+MLP + ES,MLP,Pasture,test,0.5038759689922481
+MLP + ES,MLP,PermanentCrop,test,0.2641509433962264
+MLP + ES,MLP,Residential,test,0.400990099009901
+MLP + ES,MLP,River,test,0.47058823529411764
+MLP + ES,MLP,SeaLake,test,0.6538461538461539
+MLP + ES + dropout,MLP,AnnualCrop,val,0.32142857142857145
+MLP + ES + dropout,MLP,Forest,val,0.689419795221843
+MLP + ES + dropout,MLP,HerbaceousVegetation,val,0.3400576368876081
+MLP + ES + dropout,MLP,Highway,val,0.020833333333333332
+MLP + ES + dropout,MLP,Industrial,val,0.6433566433566433
+MLP + ES + dropout,MLP,Pasture,val,0.0
+MLP + ES + dropout,MLP,PermanentCrop,val,0.056074766355140186
+MLP + ES + dropout,MLP,Residential,val,0.35555555555555557
+MLP + ES + dropout,MLP,River,val,0.3305084745762712
+MLP + ES + dropout,MLP,SeaLake,val,0.6303030303030303
+MLP + ES + dropout,MLP,AnnualCrop,test,0.3674418604651163
+MLP + ES + dropout,MLP,Forest,test,0.7094474153297683
+MLP + ES + dropout,MLP,HerbaceousVegetation,test,0.3037593984962406
+MLP + ES + dropout,MLP,Highway,test,0.020833333333333332
+MLP + ES + dropout,MLP,Industrial,test,0.6802721088435374
+MLP + ES + dropout,MLP,Pasture,test,0.0
+MLP + ES + dropout,MLP,PermanentCrop,test,0.1087866108786611
+MLP + ES + dropout,MLP,Residential,test,0.338368580060423
+MLP + ES + dropout,MLP,River,test,0.2915811088295688
+MLP + ES + dropout,MLP,SeaLake,test,0.577639751552795
+MLP + ES + L2,MLP,AnnualCrop,val,0.4835164835164835
+MLP + ES + L2,MLP,Forest,val,0.6872246696035242
+MLP + ES + L2,MLP,HerbaceousVegetation,val,0.34545454545454546
+MLP + ES + L2,MLP,Highway,val,0.25136612021857924
+MLP + ES + L2,MLP,Industrial,val,0.5735849056603773
+MLP + ES + L2,MLP,Pasture,val,0.48951048951048953
+MLP + ES + L2,MLP,PermanentCrop,val,0.3875
+MLP + ES + L2,MLP,Residential,val,0.48756218905472637
+MLP + ES + L2,MLP,River,val,0.4928909952606635
+MLP + ES + L2,MLP,SeaLake,val,0.6923076923076923
+MLP + ES + L2,MLP,AnnualCrop,test,0.5239294710327456
+MLP + ES + L2,MLP,Forest,test,0.7375886524822695
+MLP + ES + L2,MLP,HerbaceousVegetation,test,0.3761904761904762
+MLP + ES + L2,MLP,Highway,test,0.24742268041237114
+MLP + ES + L2,MLP,Industrial,test,0.5812619502868069
+MLP + ES + L2,MLP,Pasture,test,0.5342960288808665
+MLP + ES + L2,MLP,PermanentCrop,test,0.4
+MLP + ES + L2,MLP,Residential,test,0.3939393939393939
+MLP + ES + L2,MLP,River,test,0.49765258215962443
+MLP + ES + L2,MLP,SeaLake,test,0.6651162790697674
+MLP + ES + augmentation,MLP,AnnualCrop,val,0.5688073394495413
+MLP + ES + augmentation,MLP,Forest,val,0.7377049180327869
+MLP + ES + augmentation,MLP,HerbaceousVegetation,val,0.3925233644859813
+MLP + ES + augmentation,MLP,Highway,val,0.13157894736842105
+MLP + ES + augmentation,MLP,Industrial,val,0.6254826254826255
+MLP + ES + augmentation,MLP,Pasture,val,0.453781512605042
+MLP + ES + augmentation,MLP,PermanentCrop,val,0.4666666666666667
+MLP + ES + augmentation,MLP,Residential,val,0.5352112676056338
+MLP + ES + augmentation,MLP,River,val,0.4784688995215311
+MLP + ES + augmentation,MLP,SeaLake,val,0.6756756756756757
+MLP + ES + augmentation,MLP,AnnualCrop,test,0.5148063781321185
+MLP + ES + augmentation,MLP,Forest,test,0.7711864406779662
+MLP + ES + augmentation,MLP,HerbaceousVegetation,test,0.3734015345268542
+MLP + ES + augmentation,MLP,Highway,test,0.21739130434782608
+MLP + ES + augmentation,MLP,Industrial,test,0.5954198473282443
+MLP + ES + augmentation,MLP,Pasture,test,0.4634146341463415
+MLP + ES + augmentation,MLP,PermanentCrop,test,0.3588039867109635
+MLP + ES + augmentation,MLP,Residential,test,0.5478841870824054
+MLP + ES + augmentation,MLP,River,test,0.47619047619047616
+MLP + ES + augmentation,MLP,SeaLake,test,0.6605504587155964
+CNN + ES,CNN própria,AnnualCrop,val,0.8407079646017699
+CNN + ES,CNN própria,Forest,val,0.875
+CNN + ES,CNN própria,HerbaceousVegetation,val,0.7251908396946565
+CNN + ES,CNN própria,Highway,val,0.37681159420289856
+CNN + ES,CNN própria,Industrial,val,0.8863636363636364
+CNN + ES,CNN própria,Pasture,val,0.738255033557047
+CNN + ES,CNN própria,PermanentCrop,val,0.6772486772486772
+CNN + ES,CNN própria,Residential,val,0.8823529411764706
+CNN + ES,CNN própria,River,val,0.6829268292682927
+CNN + ES,CNN própria,SeaLake,val,0.9289099526066351
+CNN + ES,CNN própria,AnnualCrop,test,0.8296943231441049
+CNN + ES,CNN própria,Forest,test,0.9188034188034188
+CNN + ES,CNN própria,HerbaceousVegetation,test,0.6785009861932939
+CNN + ES,CNN própria,Highway,test,0.42424242424242425
+CNN + ES,CNN própria,Industrial,test,0.8459214501510574
+CNN + ES,CNN própria,Pasture,test,0.759075907590759
+CNN + ES,CNN própria,PermanentCrop,test,0.6382978723404256
+CNN + ES,CNN própria,Residential,test,0.8960739030023095
+CNN + ES,CNN própria,River,test,0.6766169154228856
+CNN + ES,CNN própria,SeaLake,test,0.9176470588235294
+CNN + ES + augmentation,CNN própria,AnnualCrop,val,0.8609865470852018
+CNN + ES + augmentation,CNN própria,Forest,val,0.8968609865470852
+CNN + ES + augmentation,CNN própria,HerbaceousVegetation,val,0.7755102040816326
+CNN + ES + augmentation,CNN própria,Highway,val,0.44594594594594594
+CNN + ES + augmentation,CNN própria,Industrial,val,0.918918918918919
+CNN + ES + augmentation,CNN própria,Pasture,val,0.7757575757575758
+CNN + ES + augmentation,CNN própria,PermanentCrop,val,0.7195767195767195
+CNN + ES + augmentation,CNN própria,Residential,val,0.9150943396226415
+CNN + ES + augmentation,CNN própria,River,val,0.694300518134715
+CNN + ES + augmentation,CNN própria,SeaLake,val,0.967741935483871
+CNN + ES + augmentation,CNN própria,AnnualCrop,test,0.8711111111111111
+CNN + ES + augmentation,CNN própria,Forest,test,0.912751677852349
+CNN + ES + augmentation,CNN própria,HerbaceousVegetation,test,0.737527114967462
+CNN + ES + augmentation,CNN própria,Highway,test,0.4276315789473684
+CNN + ES + augmentation,CNN própria,Industrial,test,0.8491620111731844
+CNN + ES + augmentation,CNN própria,Pasture,test,0.7787610619469026
+CNN + ES + augmentation,CNN própria,PermanentCrop,test,0.6525198938992043
+CNN + ES + augmentation,CNN própria,Residential,test,0.9155555555555556
+CNN + ES + augmentation,CNN própria,River,test,0.7015706806282722
+CNN + ES + augmentation,CNN própria,SeaLake,test,0.9305555555555556
+TL-FE + ES,Transfer Learning,AnnualCrop,val,0.8699551569506726
+TL-FE + ES,Transfer Learning,Forest,val,0.9553571428571429
+TL-FE + ES,Transfer Learning,HerbaceousVegetation,val,0.9285714285714286
+TL-FE + ES,Transfer Learning,Highway,val,0.8554913294797688
+TL-FE + ES,Transfer Learning,Industrial,val,0.9578947368421052
+TL-FE + ES,Transfer Learning,Pasture,val,0.9241379310344827
+TL-FE + ES,Transfer Learning,PermanentCrop,val,0.8839779005524862
+TL-FE + ES,Transfer Learning,Residential,val,0.9727272727272728
+TL-FE + ES,Transfer Learning,River,val,0.84
+TL-FE + ES,Transfer Learning,SeaLake,val,0.9727272727272728
+TL-FE + ES,Transfer Learning,AnnualCrop,test,0.9157175398633257
+TL-FE + ES,Transfer Learning,Forest,test,0.9576837416481069
+TL-FE + ES,Transfer Learning,HerbaceousVegetation,test,0.8639308855291576
+TL-FE + ES,Transfer Learning,Highway,test,0.8258426966292135
+TL-FE + ES,Transfer Learning,Industrial,test,0.954177897574124
+TL-FE + ES,Transfer Learning,Pasture,test,0.8372093023255814
+TL-FE + ES,Transfer Learning,PermanentCrop,test,0.84593837535014
+TL-FE + ES,Transfer Learning,Residential,test,0.972972972972973
+TL-FE + ES,Transfer Learning,River,test,0.8586666666666667
+TL-FE + ES,Transfer Learning,SeaLake,test,0.9842696629213483
+TL-FE + ES + augmentation,Transfer Learning,AnnualCrop,val,0.8356807511737089
+TL-FE + ES + augmentation,Transfer Learning,Forest,val,0.9264069264069265
+TL-FE + ES + augmentation,Transfer Learning,HerbaceousVegetation,val,0.9116279069767442
+TL-FE + ES + augmentation,Transfer Learning,Highway,val,0.841025641025641
+TL-FE + ES + augmentation,Transfer Learning,Industrial,val,0.9523809523809523
+TL-FE + ES + augmentation,Transfer Learning,Pasture,val,0.8873239436619719
+TL-FE + ES + augmentation,Transfer Learning,PermanentCrop,val,0.8397790055248618
+TL-FE + ES + augmentation,Transfer Learning,Residential,val,0.9821428571428571
+TL-FE + ES + augmentation,Transfer Learning,River,val,0.8556701030927835
+TL-FE + ES + augmentation,Transfer Learning,SeaLake,val,0.9722222222222222
+TL-FE + ES + augmentation,Transfer Learning,AnnualCrop,test,0.9153318077803204
+TL-FE + ES + augmentation,Transfer Learning,Forest,test,0.9578713968957872
+TL-FE + ES + augmentation,Transfer Learning,HerbaceousVegetation,test,0.8571428571428571
+TL-FE + ES + augmentation,Transfer Learning,Highway,test,0.8381962864721485
+TL-FE + ES + augmentation,Transfer Learning,Industrial,test,0.9336870026525199
+TL-FE + ES + augmentation,Transfer Learning,Pasture,test,0.8671328671328671
+TL-FE + ES + augmentation,Transfer Learning,PermanentCrop,test,0.8403361344537815
+TL-FE + ES + augmentation,Transfer Learning,Residential,test,0.9546436285097192
+TL-FE + ES + augmentation,Transfer Learning,River,test,0.8608923884514436
+TL-FE + ES + augmentation,Transfer Learning,SeaLake,test,0.9794050343249427
+TL-FT + ES,Transfer Learning,AnnualCrop,val,0.8807339449541285
+TL-FT + ES,Transfer Learning,Forest,val,0.9482758620689655
+TL-FT + ES,Transfer Learning,HerbaceousVegetation,val,0.9244444444444444
+TL-FT + ES,Transfer Learning,Highway,val,0.8636363636363636
+TL-FT + ES,Transfer Learning,Industrial,val,0.9574468085106383
+TL-FT + ES,Transfer Learning,Pasture,val,0.9154929577464789
+TL-FT + ES,Transfer Learning,PermanentCrop,val,0.8700564971751412
+TL-FT + ES,Transfer Learning,Residential,val,0.9727272727272728
+TL-FT + ES,Transfer Learning,River,val,0.8472906403940886
+TL-FT + ES,Transfer Learning,SeaLake,val,0.9680365296803652
+TL-FT + ES,Transfer Learning,AnnualCrop,test,0.9290617848970252
+TL-FT + ES,Transfer Learning,Forest,test,0.9540481400437637
+TL-FT + ES,Transfer Learning,HerbaceousVegetation,test,0.8626609442060086
+TL-FT + ES,Transfer Learning,Highway,test,0.8277777777777777
+TL-FT + ES,Transfer Learning,Industrial,test,0.9513513513513514
+TL-FT + ES,Transfer Learning,Pasture,test,0.8591549295774648
+TL-FT + ES,Transfer Learning,PermanentCrop,test,0.8595505617977528
+TL-FT + ES,Transfer Learning,Residential,test,0.9684684684684685
+TL-FT + ES,Transfer Learning,River,test,0.859375
+TL-FT + ES,Transfer Learning,SeaLake,test,0.9864253393665159
+TL-FT + ES + augmentation,Transfer Learning,AnnualCrop,val,0.8504672897196262
+TL-FT + ES + augmentation,Transfer Learning,Forest,val,0.9401709401709402
+TL-FT + ES + augmentation,Transfer Learning,HerbaceousVegetation,val,0.9216589861751152
+TL-FT + ES + augmentation,Transfer Learning,Highway,val,0.8736842105263158
+TL-FT + ES + augmentation,Transfer Learning,Industrial,val,0.9625668449197861
+TL-FT + ES + augmentation,Transfer Learning,Pasture,val,0.8873239436619719
+TL-FT + ES + augmentation,Transfer Learning,PermanentCrop,val,0.8555555555555555
+TL-FT + ES + augmentation,Transfer Learning,Residential,val,0.9823008849557522
+TL-FT + ES + augmentation,Transfer Learning,River,val,0.8762886597938144
+TL-FT + ES + augmentation,Transfer Learning,SeaLake,val,0.9722222222222222
+TL-FT + ES + augmentation,Transfer Learning,AnnualCrop,test,0.9269406392694064
+TL-FT + ES + augmentation,Transfer Learning,Forest,test,0.9536423841059603
+TL-FT + ES + augmentation,Transfer Learning,HerbaceousVegetation,test,0.8642533936651584
+TL-FT + ES + augmentation,Transfer Learning,Highway,test,0.8488063660477454
+TL-FT + ES + augmentation,Transfer Learning,Industrial,test,0.9333333333333333
+TL-FT + ES + augmentation,Transfer Learning,Pasture,test,0.8661971830985915
+TL-FT + ES + augmentation,Transfer Learning,PermanentCrop,test,0.8426966292134831
+TL-FT + ES + augmentation,Transfer Learning,Residential,test,0.9565217391304348
+TL-FT + ES + augmentation,Transfer Learning,River,test,0.870026525198939
+TL-FT + ES + augmentation,Transfer Learning,SeaLake,test,0.9817351598173516

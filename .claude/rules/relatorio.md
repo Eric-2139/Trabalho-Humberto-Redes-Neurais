@@ -18,7 +18,8 @@ Decisão dos alunos (2026-11-09): relatório **separado e detalhado**, que **car
 7. **Conclusão e recomendação**: qual modelo e por quê (desempenho × custo em CPU × tamanho do dataset), mais as limitações do estudo.
 
 ## Regras
-- Markdown para o texto; **células de código só para carregar e exibir** as tabelas (e eventualmente gráficos) a partir dos CSVs de `outputs/`. Nada de treino nem de recálculo de métricas no relatório.
+- Markdown para o texto; **células de código só para carregar e exibir** as tabelas (dos CSVs de `outputs/`) e as figuras (lidas do `trabalho_eurosat.ipynb` executado pela função `figura(id_da_célula)`). Nada de treino, de recálculo de métricas nem de gráfico redesenhado no relatório.
+- Cada figura tem uma legenda numerada ("Figura N") com a seção de origem e o que ela sustenta na tabela vizinha. Interpretações citam a figura quando dependem dela.
 - Detalhado, mas organizado: seções com títulos claros, tabelas em vez de parágrafos sempre que possível.
 - Todo número vem dos CSVs exportados pelo notebook principal ou de uma saída citada dele. Tempos vêm da **execução completa local** (execução oficial).
 - Números citados no texto precisam bater com as tabelas carregadas.

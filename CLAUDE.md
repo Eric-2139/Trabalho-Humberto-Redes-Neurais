@@ -35,6 +35,7 @@ Ao concluir uma fase: marcar o status na tabela da seção 6 do PLAN.md, atualiz
 - Python do projeto: `uv run python ...`
 - Executar o notebook: use a skill **/executar-notebook** (`smoke` ≈ 2–3 min; `completo` ≈ 20 min local, rodar em background).
 - O dataset fica em `data/eurosat_rgb.zip` e é lido direto do zip, sem extrair (não versionar, não editar). Saídas executadas e CSV de resultados vão para `outputs/`.
+- **GitHub:** depois de uma execução completa, copiar `outputs/trabalho_eurosat_executado.ipynb` para `trabalho_eurosat.ipynb` (a raiz fica salva executada) e reexecutar o `relatorio.ipynb` (`uv run jupyter nbconvert --to notebook --execute relatorio.ipynb --inplace`). Os CSVs de `outputs/` são versionados; os notebooks de `outputs/` e os arquivos de smoke, não.
 
 ## Arquivos
 
@@ -42,7 +43,7 @@ Ao concluir uma fase: marcar o status na tabela da seção 6 do PLAN.md, atualiz
 |---|---|
 | `trabalho_eurosat.ipynb` | Notebook principal (Parte A: dados + MLP · Parte B: CNN + TL + comparação) |
 | `relatorio.ipynb` | Relatório detalhado: markdown + código que carrega as tabelas de `outputs/*.csv` |
-| `outputs/` | Notebooks executados, `resultados_eurosat.csv` |
+| `outputs/` | CSVs de resultados (versionados) e cópias executadas pelo nbconvert (fora do git) |
 | `docs/enunciado.md` | Enunciado do professor |
 
 ## Harness deste projeto
